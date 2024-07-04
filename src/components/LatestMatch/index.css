@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.latestmatch-container {
+  background-color: black;
+  border-radius: 10px;
+  padding: 15px;
+}
+.competing-match-heading {
+  font-family: Bree Serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.date {
+  font-family: Bree Serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.venue {
+  font-size: 12px;
+  font-family: Bree Serif;
+  color: white;
+}
+.result {
+  font-size: 12px;
+  font-family: Bree Serif;
+  color: white;
+}
+.competinglogo {
+  height: 50px;
+  width: 50px;
+}
+.p {
+  font-size: 12px;
+  font-family: Bree Serif;
+  color: white;
+}
+.q {
+  font-size: 14px;
+  color: white;
+  font-family: Bree Serif;
+}
+.m {
+  font-size: 16px;
+  color: white;
+  font-family: Bree Serif;
+}
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.competingDetails-container {
+  width: 70%;
+}
+.line {
+  border: 1px solid grey;
+}
+@media screen and (min-width: 575px) {
+  .line {
+    border: none;
+  }
+  .latestmatch-container {
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .competinglogo {
+    height: 220px;
+    width: 220px;
+  }
+  .card1 {
+    width: 55%;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .q {
+    font-size: 22px;
+  }
+  .p {
+    font-size: 16px;
+  }
+  .innings-container {
+    text-align: right;
+  }
+  .competing-match-heading {
+    font-size: 32px;
+  }
+  .date {
+    font-size: 28px;
+  }
+  .venue {
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    font-family: Bree Serif;
+  }
+
+  .result {
+    text-align: left;
+    color: white;
+    font-family: Bree serif;
+  }
+}

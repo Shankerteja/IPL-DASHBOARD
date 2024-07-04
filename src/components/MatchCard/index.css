@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.recentMatches-card {
+  list-style-type: none;
+  background-color: black;
+  border-radius: 10px;
+  padding: 12px;
+  width: 45%;
+  margin: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.competingTeam-logo {
+  height: 40px;
+  width: 40px;
+}
+.a {
+  color: white;
+  font-family: Bree Serif;
+  text-align: center;
+}
+.competingTeam-name {
+  font-size: 16px;
+}
+.matchStatus {
+  font-size: 14px;
+}
+.green {
+  color: #18ed66;
+}
+.red {
+  color: red;
+}
+@media screen and (min-width: 575px) {
+  .competingTeam-logo {
+    height: 150px;
+    width: 150px;
+  }
+  .competingTeam-name {
+    font-size: 24px;
+  }
+  .matchStatus {
+    font-size: 18px;
+  }
+  .recentMatches-card {
+    width: 30%;
+    height: 450px;
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+}
